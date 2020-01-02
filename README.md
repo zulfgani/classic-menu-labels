@@ -1,4 +1,4 @@
-# Classic Menu Labels
+# Classic Menu Labels for ClassicPress sites
 A small yet functional plugin that facilitates the ability to add a menu label to any theme's navigation menu
 
 ## How to use
@@ -12,6 +12,23 @@ Once installed and activated the plugin will enable the use of the Menu Descript
 3. Save and check the front end - you may need to visit the Customizer to make some more configurations
 
 ## The plugin provides minimal CSS rules
-You will need add some CSS to your child theme or in the Customizer >> Additional CSS field to match your theme's output.
+You may need to add some CSS to your child theme or in the Customizer >> Additional CSS field to match your theme's output.
+
+## Screeenshots
+On the FeatherLite theme
+
+![FeatherLite Theme](https://raw.github.com/zulfgani/classic-menu-labels/master/assets/images/MenuLabels1.png)
+
+FeatherLite Commerce - A ClassicCommerce child theme for the FeatherLite theme
+
+![FeatherLite Commerce](https://raw.github.com/zulfgani/classic-menu-labels/master/assets/images/MenuLabels2.png)
+
+On the GeneriK theme
+
+![GeneriK Theme](https://raw.github.com/zulfgani/classic-menu-labels/master/assets/images/MenuLabels3.png)
+
+On the ClassicPress Susty Child Theme
+
+![ClassicPress Susty Child Theme](https://raw.github.com/zulfgani/classic-menu-labels/master/assets/images/MenuLabels4.png)
 
 ### More info to follow soon!
