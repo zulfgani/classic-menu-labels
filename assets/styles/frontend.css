@@ -1,0 +1,71 @@
+/*
+ Theme Name:   FeatherLite Experiments
+ Theme URI:    https://getfeatherlite.com/featherlite-cprevue
+ Description:  A features experimental child theme For the FeatherLite theme before implementing in the main or a dedicated child theme
+ Author:       GetFeatherLite
+ Author URI:   https://getfeatherlite
+ Version:      1.0.0
+ Template:     featherlite
+ Tags          light, featherlite
+ Text Domain   featherlite-cprevue
+ Domain Path   /languages
+ Details URI   https://github.com/froger-me/wp-plugin-update-server/blob/master/examples/dummy-theme-details.md
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+.menu-description,
+body.commerce.featherlite .menu-description {
+    position: absolute;
+    font-size: 9px;
+    color: #fff;
+    background-color: #13aff0;
+    border-radius: 1px;
+    padding: 4px 8px;
+    line-height: normal;
+    top: 0;
+    margin: 0;
+}
+
+.menu-description::after,
+body.commerce.featherlite .menu-description::after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 0px solid transparent;
+	border-right: 5px solid transparent;
+    border-top: 5px solid #13aff0;
+    left: 0px;
+    bottom: -4px;
+}
+
+body span.menu-description::after {
+    border-top: 5px solid #13aff0;
+}
+
+body.featherlite .main-navigation a, 
+body.featherlite .secondary-navigation a {
+    padding: 1.5em;
+}
+
+body.featherlite .menu-description {
+    background-color: #022140;
+    top: 0;
+    margin: 0 ;
+}
+
+body.featherlite span.menu-description::after {
+    border-top-color: #022140;
+}
+
+body.generik .menu-description {
+    background-color: #333;
+    top: -6px;
+	left: auto;
+    margin: 0 -15px;
+}
+
+body.generik span.menu-description::after {
+    border-top-color: #333;
+}
